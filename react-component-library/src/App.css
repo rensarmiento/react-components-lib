@@ -1,0 +1,234 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.container {
+  margin: auto;
+  width: 80%;
+  height: 800px;
+  background-color: light dark;
+  /* display: flex; */
+  /* flex-direction: column;
+  justify-content: space-around; */
+}
+
+.badge-white {
+  background: #F3F4F6;
+  color: #1F2937;
+}
+
+.badge-red {
+  background: #FEE2E2;
+  color: #991B1B;
+}
+
+.badge-yellow {
+  background: #FEF3C7;
+  color: #92400E;
+
+}
+
+.badge-green {
+  background: #D1FAE5;
+  color: #065F46;
+}
+
+.badge-blue {
+  background: #DBEAFE;
+  color: #1E40AF;
+
+}
+
+.banner-indigo {
+  background: #E0E7FF;
+  color: #3730A3;
+
+}
+
+.badge-purple {
+  background: #EDE9FE;
+  color: #5B21B6;
+
+}
+
+.badge-pink {
+  background: #FCE7F3;
+  color: #9D174D;
+}
+
+.badge {
+  /* width: Hug (67px)px;
+  height: Hug (24px)px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  width:  4em;
+  height: 1.5em;
+  top: 41px;
+  left: -324px;
+  padding: 2px 12px;
+  gap: 0px;
+  border-radius: 4px;
+  opacity: 0px;
+}
+
+.pill {
+width: 4em;
+height:1.5em;
+top: 82px;
+left: -324px;
+padding: 2px 12px;
+gap: 0px;
+border-radius: 12px;
+opacity: 0px;
+}
+
+.badge-text {
+  /* //styleName: text-sm/leading-5/font-medium; */
+font-family: Inter;
+font-size: 1rem;
+font-weight: 500;
+line-height: 20px;
+text-align: center;
+}
+
+/*------------------------------------------------------*/
+/* Banner Styling */
+
+.banner {
+  display: fixed;
+  width: Fixed (896px)px;
+  height: Hug (52px)px;
+  margin: 2rem;
+  padding: 16px 16px 8px 16px;
+
+  border-radius: 6px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.banner-neutral {
+  background: #EFF6FF;
+  color: #1E40AF;
+}
+
+.banner-icon-neutral {
+  color: #60A5FA;
+  padding-right: .25rem;
+}
+
+.banner-success {
+  background: #ECFDF5;
+  color: #065F46;
+
+}
+
+.banner-icon-success {
+  color:#34D399;
+  padding-right: .25rem;
+}
+
+.banner-warning {
+  background: #FFFBEB;
+  color: #92400E;
+}
+
+.banner-icon-warning {
+  color: #FBBF24;
+  padding-right: .25rem;
+}
+
+.banner-danger {
+  background: #FEF2F2;
+  color: #92400E;
+}
+
+.banner-icon-danger {
+  color: #F87171;
+  padding-right: .25rem;
+}
+
+.banner-title  {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  display: flex;
+  padding-bottom: .25rem;
+  justify-content: left;
+  margin-bottom: 0;
+}
+
+.banner-text {
+font-family: Inter;
+font-size: .875rem;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+margin-left: 1.25rem;
+padding-bottom: .5rem;
+}
+/*------------------------------------------------------*/
+
+.card {
+  width: 384px;
+  height: 208px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: #F9FAFB;
+  position: relative;
+}
+
+.card-contents {
+  position: absolute;
+  left: 0;
+  top: -1.5rem;
+}
+
+.card-image {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  margin-bottom: 2rem; 
+  box-shadow: 0px 4px 6px -2px #0000000D;
+  box-shadow: 0px 10px 15px -3px #0000001A;
+}
+
+.card-title {
+  font-family: Inter;
+  font-size: 1.125em;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  color: #111827;
+  margin: 0;
+  margin-bottom: 1.25rem;
+}
+.card-text {
+  font-family: Inter;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #6B7280;
+  padding: 0 1.5em 0 1.5em;
+}
+
+.card:hover {
+  background-color: #F9FAFB;
+  box-shadow: 0px 4px 25px 0px #0000001A;
+  cursor: pointer;
+}
+
+/*------------------------------------------------------*/
+
+
+
